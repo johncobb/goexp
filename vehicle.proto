@@ -1,0 +1,26 @@
+syntax="proto3";
+
+package main;
+
+message VehicleFinancial {
+    int32 price = 1;
+    int32 cost = 2;
+}
+
+message Vehicle {
+
+    string vin = 1;
+    int32 year = 2;
+    string make = 3;
+    string model = 4;
+    string color = 5;
+
+    enum Type {
+        NEW = 0;
+        USED = 1;
+        LOANER = 3;
+    }
+
+    Type type = 6;
+    VehicleFinancial vehicleFinancial = 7;
+}
