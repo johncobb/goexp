@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-	fmt.Println("Hello World!")
+	fmt.Println("goexp protobuf example:")
 
 	vehicle := &Vehicle {
 		Vin: "WP1AA2AY0KDA00835",
