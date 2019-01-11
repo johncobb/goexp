@@ -1,8 +1,8 @@
 
-# gexp example program
+# goexp example program
 
  
-[Download and install Golang] (https://golang.org/dl/)
+Download and install Golang https://golang.org/dl/
 ```console
 
 # install protobuf
