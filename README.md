@@ -28,6 +28,8 @@ stat -f%z vehicle.json
 
 ### References: 
 https://developers.google.com/protocol-buffers/docs/gotutorial
+
 https://developers.google.com/protocol-buffers/docs/reference/go-generated
+
 http://blog.ralch.com/tutorial/golang-proto-buffer/
 
