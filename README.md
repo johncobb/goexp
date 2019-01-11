@@ -1,18 +1,21 @@
 
 # gexp example program
 
-```
-# launch go program
-go run main.go
+ 
+[Download and install Golang] (https://golang.org/dl/)
+```console
+
 # install protobuf
 go get github.com/golang/protobuf/proto
+
 # install protoc-gen-go
 github.com/golang/protobuf/protoc-gen-go
-# build the protobuf
-protoc --go_out=. *.proto
 
 # set protoc-gen-go to shell path
 export PATH=$PATH:$GOPATH/bin
+
+# build the protobuf
+protoc --go_out=. *.proto
 
 # test the program by running
 go run main.go vehicle.pb.go
