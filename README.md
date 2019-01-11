@@ -1,4 +1,7 @@
 
+# gexp example program
+
+```
 # launch go program
 `go run main.go`
 # install protobuf
@@ -18,10 +21,11 @@ export PATH=$PATH:$GOPATH/bin
 # file stats
 stat -f%z vehicle.xml
 stat -f%z vehicle.json
+```
 
 
-# References: 
+### References: 
 https://developers.google.com/protocol-buffers/docs/gotutorial
 https://developers.google.com/protocol-buffers/docs/reference/go-generated
 http://blog.ralch.com/tutorial/golang-proto-buffer/
-# goexp
+
