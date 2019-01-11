@@ -3,20 +3,19 @@
 
 ```
 # launch go program
-`go run main.go`
+go run main.go
 # install protobuf
-# RTFM: https://github.com/golang/protobuf
-`go get github.com/golang/protobuf/proto`
+go get github.com/golang/protobuf/proto
 # install protoc-gen-go
-`github.com/golang/protobuf/protoc-gen-go`
+github.com/golang/protobuf/protoc-gen-go
 # build the protobuf
-`protoc --go_out=. *.proto`
+protoc --go_out=. *.proto
 
 # set protoc-gen-go to shell path
 export PATH=$PATH:$GOPATH/bin
 
 # test the program by running
-`go run main.go vehicle.pb.go`
+go run main.go vehicle.pb.go
 
 # file stats
 stat -f%z vehicle.xml
